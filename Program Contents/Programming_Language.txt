@@ -1,4 +1,3 @@
-
 var num count = 8
 var* dec temp = 1
 arr[] zoid array = {1, 2, 3, 4, 5, "asdf"}
@@ -157,7 +156,3 @@ var num count = initialize: search.inputLine()
 intialize-> syntax that opens a scanner
 search   -> scanner syntax(used to show that it is looking for input)
 inputLine-> syntax that allows for input to be put into the command line
-
-
-
-
