@@ -2,6 +2,9 @@ change central in main method
 change the : at end
 find what to put the syntaxes/inputs in class, etc. (could be in (), [], {})
 
+add ability to do complex math(using symbols like i, e, dx, y', y", (a, b), [a, b], |x|)
+add more simple math syntax
+
 put ; at the end of each line
 
 change string to other name(elixir)
@@ -14,12 +17,11 @@ change when back to if
 
 change how given loop is set up
 change how <=, <, >=, > look
-
 add roughly equal(~=, ?=)
 
 change how single, double quotes, and quotation marks are syntaxed
 
-ability to break
+ability to break function
 
 change up scanner syntax language
 
@@ -33,3 +35,6 @@ figure out better way to decease stuff in syntax of functions with a lot of stri
 
 overwriting num, str, dec, arr[]
 
+create special class named asdf
+
+add restricable variables(enums)
