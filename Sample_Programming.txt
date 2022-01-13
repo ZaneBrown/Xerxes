@@ -1,0 +1,47 @@
+//author Zane Brown
+//program written in ___ language(name TBD)
+//program will describe a car
+
+callable program sample = *, null, runnable
+    arr[] num array = {1, 2, 3, 4, 5};
+    var str carName = "";
+    var str direction = "";
+    var num speed = 0;
+    var boo collision = false;
+    
+    callable central init = *, null, String:
+        print("This is a sample program.");
+        getCar("Lambo", 40);
+        println("Your " + carName + " is going at " + speed + " mph " + direction + ".");
+        println("?enterA car enters your area.");
+        do
+            when(collision)
+                speed = 0;
+                println("A collision has occured.");
+            stop
+            else when(!collision && speed >= 65)
+                println("You are speeding and the car returns to their lane.");
+            stop
+            default
+                speed++;
+                println("You are now cruising at " + speed + " mph without any troubles.");
+            stop
+        end
+    end
+    
+    callable function getCar = *, str:num, 2, null, 0
+        carName = a;
+        speed = b;
+        direction = "west";
+    end
+end
+
+output:
+This is a sample program
+Your Lambo is going at 40 mph west.
+
+A car enters your area.
+You are now cruising at 51 mph without any troubles
+
+
+

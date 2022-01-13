@@ -1,0 +1,163 @@
+
+var num count = 8
+var* dec temp = 1
+arr[] zoid array = {1, 2, 3, 4, 5, "asdf"}
+
+var     -> data type(array[arr], variable[var], etc.)
+*       -> callable(public[var], private[var*], etc.) (private[visible to class], public[visible to every class])
+num     -> input type(decimal[dec], whole numbers[num], string[str], boolean[boo], any type[zoid] (array can hold any type or only one))
+count   -> variable name
+
+
+
+callable function func = *, num, 2, str:num, 2
+
+callable -> changable(public[callable](call from anywhere), private[non](call from only within program))
+function -> class type(function, object, program, asdf, central)
+func     -> class name
+*        -> ability to change(*[static], ??[dynamic])
+num      -> input type(decimal[dec], whole numbers[num], string[str], boolean[boo], void[null]) (variables are automatically named a, b,
+            c...can only have 26 inputs Max) (null places 0 in the next place regardless what is inputed there and an array is callable
+            after running)
+2        -> number of inputs(variables are automatically named a, b, c...can only have 26 inputs Max)
+String   -> return type(s)(var_type[returns that type], var_Type:var_Type1[ability to return both, has to be less than number of returns,
+            doesn't have to return that type], null[not returnable])
+2        -> number of returns(has no limit?, might put limit) (when returning it will run through the whole function get all the returns
+            then put them in an array named arr[] tempArray_FunctionName(built in array when making class) which is callable based on
+            callability of the iterated class)
+
+callable program asdf = *, null, runnable
+
+program  -> class type, program sets the inputs to: 
+            -> ability to change(always *[public])
+            -> input type(always null[no input])
+            -> runability(always runnable)
+         -> always the same, unable to run the program without this line
+         
+callable central init = *, null, String:
+
+callable -> public
+central  -> main
+init     -> name, always method, not like a class or program name
+*        -> static
+null     -> void
+String   -> String[] args
+:        -> signifies main method
+
+
+
+callable program asdf = *, null, runnable
+    var num count = 8
+    var* dec temp = 1
+    arr[] dec array = {1, 2, 3, 4, 5}
+    
+    callable function func = *, num, 2, String:int, 2
+        count = count + a
+        temp = b
+        store count
+        store temp
+    end
+    //not visible, but can access
+    //arr[] zoid tempArray_func = {count, temp}
+    
+    callable central init = *, null, String:
+        print(count)
+    end
+end
+
+
+
+
+Computation
+print(3+(2^(3*2))-(1/4))
+
+()       -> anything in (), [], {} is computed first(if multiple, inner layered is computed first)
+^        -> computed second(if multiple, computed left to right)
+*/       -> computed third(if multiple, computed left to right)
++-       -> computed last(if multiple, computed left to right)
+
+Logic
+>        -> greater than
+>=       -> greater than or equal to
+<        -> less than
+<=       -> less than or equal to
+==       -> equal to
+!=       -> not equal to
+
+Basic Syntax
+print(array[])
+println(count + "a")
+print((count + 6))
+
+print    -> prints out what is in parentheses(println prints everything on a new line)
+()       -> computation(any thing in parentheses is computated)
+
+
+?enter   -> adds a new line to a string or print
+?tab     -> adds tab to string or print
+?del     -> deletes last character
+
+["]       -> adds double quote
+[?]       -> adds question mark
+[']       -> adds single quote
+
+
+
+
+do
+    when(count == 1)
+        count++
+    stop
+    else when(count <= 6)
+        count+=2
+    stop
+    default
+        count=6
+    stop
+end    
+
+do       -> syntax
+when     -> first statement(requires statement) (if)
+else when-> statements that require statements (else if)
+default  -> last statement(else)
+
+
+
+given(row: dec: 0: 1: row >= array.size[])
+    print(array[row])
+end
+
+given    -> stoppable while loop(for loop)
+row      -> var name
+int      -> var type(can be dec or num)
+0        -> start value
+1        -> change by
+row >=   -> count to value
+
+
+
+do  
+    while(count != 10)
+        count++
+    stop
+    else
+        count--
+    stop
+end
+
+do       -> syntax
+while    -> unstoppable loop(while loop)
+count != -> condition(will keep going through loop until false
+else     -> if while loop is false(doesn't need to have else, but still need end)
+
+
+
+var num count = initialize: search.inputLine()
+
+intialize-> syntax that opens a scanner
+search   -> scanner syntax(used to show that it is looking for input)
+inputLine-> syntax that allows for input to be put into the command line
+
+
+
+

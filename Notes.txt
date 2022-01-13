@@ -1,0 +1,35 @@
+change central in main method
+change the : at end
+find what to put the syntaxes/inputs in class, etc. (could be in (), [], {})
+
+put ; at the end of each line
+
+change string to other name(elixir)
+change data types of dec and num??
+boolean could also work as on/off
+
+look at the idea of keeping the do part of a when statement
+change/add parts of do when loop
+change when back to if
+
+change how given loop is set up
+change how <=, <, >=, > look
+
+add roughly equal(~=, ?=)
+
+change how single, double quotes, and quotation marks are syntaxed
+
+ability to break
+
+change up scanner syntax language
+
+comments(//, /* */) changed
+
+change print to output(or other)
+
+change how to call a function
+getCar(); -> just inputs
+figure out better way to decease stuff in syntax of functions with a lot of strings and nums as inputs/outputs(right now str:num:str)
+
+overwriting num, str, dec, arr[]
+
